@@ -44,10 +44,6 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-		{
-			name: "写作",
-			url: "/admin/",
-		},
 	],
 };
 
