@@ -13,15 +13,34 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 preview.*.log
+*.log
 
 # environment variables
 .env
 .env.production
+.env.local
+.env.*.local
 
-# macOS-specific files
+# local notes / editors
+.obsidian/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.history/
+
+# OS-specific files
 .DS_Store
+Thumbs.db
+Desktop.ini
 
 .vercel
+.netlify/
+.wrangler/
+.cache/
+.temp/
+.tmp/
+tmp/
+temp/
 
 package-lock.json
 bun.lockb
@@ -30,3 +49,10 @@ yarn.lock
 # ide
 .idea
 *.iml
+
+# local exports / archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
