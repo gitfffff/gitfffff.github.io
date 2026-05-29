@@ -1,0 +1,12 @@
+{
+  "id": "conv-1780068953847-02u44438s",
+  "providerId": "claude",
+  "title": "你好",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780068953849,
+  "updatedAt": 1780068960673,
+  "lastResponseAt": 1780068960673,
+  "sessionId": null,
+  "providerState": {},
+  "currentNote": "src/content/posts/RAG普通与进阶，痛点与优化方向.md"
+}
